@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+ // logo font
+@import url('https://fonts.googleapis.com/css?family=Teko');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// common
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #e7336e;
+}
+
+header {
+    .navbar-brand {
+        font-size: 45px;
+        font-family: 'Teko', cursive;
+    }
+}
